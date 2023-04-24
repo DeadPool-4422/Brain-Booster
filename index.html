@@ -82,93 +82,93 @@
   <section class="working" id="uses">
     <div class="main">
       <h1 id="w-title">Top Games</h1>
-      <br> 
-      <div class="process-wrapper" id="process-wrapper">
+      <br>
+      <div class="process-wrapper" id="process-wrpper">
         <div id="progress-bar-container">
-          <div id="progress-content-section">
-            <div class="section-content discovery active">
-              <div class="step-card">
-                <div class="step-card-image">
-                  <img src="https://play-lh.googleusercontent.com/LyRyGkeTHipbG8hWbvZ2jhSucGbfzj5TvAubzHJw5iLaPQ5ztMtk31CPR95qzH_QDqzv=w480-h960-rw" alt="Major Mayhem">
-                </div>
-                <div class="step-card-text" a href="https://play.google.com/store/apps/details?id=com.turner.asmajormayhem">
-                  <h2>Major Mayhem</h2>
-                  <p>Placeholder1</p>
+
+          <ul>
+            <li class="step step01 active">
+              <div class="step-inner">
+                <div class="step-content">
+                  <img src="https://play-lh.googleusercontent.com/ZvKnDL7gfQp_pjbdQZjLKHkoO4y6HY2UJHCYI0K4OcAZena4pDoX1W__yIu4jeNrZME=s96-rw" alt="Step 1">
+                  <span>1st</span>
                 </div>
               </div>
-            </div>
-            <div class="section-content strategy">
-              <div class="step-card">
-                <div class="step-card-image">
-                  <img src="https://via.placeholder.com/150" alt="Game 2">
-                </div>
-                <div class="step-card-text">
-                  <h2>LED Modulation</h2>
-                  <p>Placeholder2</p>
+            </li>
+
+            <li class="step step02">
+              <div class="step-inner">
+                <div class="step-content">
+                  <span>2nd</span>
                 </div>
               </div>
-            </div>
-            <div class="section-content creative">
-              <div class="step-card">
-                <div class="step-card-image">
-                  <img src="https://via.placeholder.com/150" alt="Game 3">
-                </div>
-                <div class="step-card-text">
-                  <h2>Transmission</h2>
-                  <p>Placeholder3</p>
+            </li>
+
+            <li class="step step03">
+              <div class="step-inner">
+                <div class="step-content">
+                  <span>3rd</span>
                 </div>
               </div>
-            </div>
-            <div class="section-content production">
-              <div class="step-card">
-                <div class="step-card-image">
-                  <img src="https://via.placeholder.com/150" alt="Game 4">
-                </div>
-                <div class="step-card-text">
-                  <h2>Reception</h2>
-                  <p>Placeholder4</p>
+            </li>
+
+            <li class="step step04">
+              <div class="step-inner">
+                <div class="step-content">
+                  <span>4th</span>
                 </div>
               </div>
-            </div>
-            <div class="section-content analysis">
-              <div class="step-card">
-                <div class="step-card-image">
-                  <img src="https://via.placeholder.com/150" alt="Data Decoding">
-                </div>
-                <div class="step-card-text">
-                  <h2>Data Decoding</h2>
-                  <p>Placeholder5</p>
+            </li>
+
+            <li class="step step05">
+              <div class="step-inner">
+                <div class="step-content">
+                  <span>5th</span>
                 </div>
               </div>
-            </div>
-          </div>
+            </li>
+            </ul>
+
+        
+        <div id="line">
+          <div id="line-progress"></div>
+        </div>
+      </div>
+
+      <div id="progress-content-section">
+        <div class="section-content discovery active">
+          <h2>Wordle</h2>
+          <p>Wordle can be a fun and engaging way for children to develop their language and vocabulary skills, as they learn new words and their meanings through gameplay.
+
+            The game can also provide a sense of achievement and progress for children, helping to boost their self-esteem and confidence as they successfully guess more and more words.
+            
+            Additionally, Wordle can serve as a positive and healthy form of screen time for children, providing a fun and educational activity that can help to promote their mental wellbeing.<p>
+        </div>
+        
+        <div class="section-content strategy">
+          <h2>LED MODULATION</h2>
+          <p></p>
+        </div>
+        
+        <div class="section-content creative">
+          <h2>TRANSMISSION</h2>
+          <p>The modulated light signal is transmitted through the air, just like a traditional radio wave in WiFi. The light waves are received by a photodetector, which detects the changes in the light signal and converts them back into electrical signals that correspond to the encoded data.</p>
+        </div>
+        
+        <div class="section-content production">
+          <h2>RECEPTION</h2>
+          <p>The photodetector converts the light signal into electrical signals. These signals are then sent to a receiver that decodes the signals to extract the original digital data. The receiver may be a separate device or integrated into the photodetector.</p>
+        </div>
+        
+        <div class="section-content analysis">
+          <h2>DATA ENCODING</h2>
+          <p>The binary data is decoded back into its original digital format. This is done by reversing the encoding process that was done on the sender side. The receiver side data decoding involves converting the electrical signals received by the receiver into binary code, which is then converted back into the original digital data.</p>
+        </div>
         </div>
       </div>
     </div>
-    <div class="navigation">
-      <button class="left-btn" onclick="plusSlides(-1)">&#10094;</button>
-      <button class="right-btn" onclick="plusSlides(1)">&#10095;</button>
-    </div>
   </section>
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
 
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("section-content");
-      if (n > slides.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = slides.length }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slides[slideIndex - 1].style.display = "block";
-    }
-  </script>
 
 
 
@@ -317,4 +317,3 @@
 </script>
 </body>
 </html>
-
