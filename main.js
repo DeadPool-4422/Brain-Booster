@@ -65,8 +65,3 @@ const sections = document.querySelectorAll('section');
 sections.forEach(section => {
   observer.observe(section);
 });
-
-
-
-
-
