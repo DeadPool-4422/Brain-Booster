@@ -14,6 +14,16 @@
   text-align: center;
 }
 
+.step-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-content img {
+  margin-bottom: 10px;
+}
+
 .button-container button {
   padding: 10px 15px;
   margin: 0 5px;
@@ -33,7 +43,7 @@
   float: right;
 }
 
-.step-card-image {
+.step-card-image img {
   max-width: 100%;
   height: fit-content;
 }
@@ -401,10 +411,10 @@ section {
 	line-height: 23px;
 }
 
-.process-wrapper {
-  position: relative;
-	margin:auto;
-	max-width:1080px;
+.process-wrapper {	
+  position: relative;	
+	margin:auto;	
+	max-width:1080px;	
   z-index: 0;
 }
 
